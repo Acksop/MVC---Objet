@@ -19,14 +19,14 @@ class Url
 	$urlTrim = trim( $url['path'] , '/' );
 	$urlParts = explode('/' , $urlTrim );
 
-	array_shift($urlParts);
-	array_shift($urlParts);
-
-	//print_r($urlParts);
 	//Récupération du nom de la page
-	($urlParts[0] == 'index' || $urlParts[0] == '' ) ? $page['name']='accueil' : $page['name']=$urlParts[0];
-        //array_shift($urlParts);
-        unset($urlParts[0]);
+        if(isset($urlParts[0])) {
+            ($urlParts[0] == 'index' || $urlParts[0] == '') ? $page['name'] = 'accueil' : $page['name'] = $urlParts[0];
+            //array_shift($urlParts);
+            unset($urlParts[0]);
+        }else{
+            $page['name'] = 'accueil';
+        }
 
 	if($page['name'] == 'control'){
 	    $page['control'] = true;
@@ -64,7 +64,7 @@ class Url
     if($page['control']){
         $pageFile = TRAITEMENT_PATH . DIRECTORY_SEPARATOR . $page['name'] . '.php';
     }else {
-        $pageFile = CONTROLLERS_PATH . DIRECTORY_SEPARATOR . $page['name'] . '.php';
+        $pageFile = CONTROLLER_PATH . DIRECTORY_SEPARATOR . $page['name'] . '.php';
 	}
 	
 	if(!file_exists($pageFile)){
