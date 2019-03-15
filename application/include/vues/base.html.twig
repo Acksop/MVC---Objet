@@ -1,0 +1,43 @@
+{# base.html.twig #}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page_description }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Les favicons -->
+    <link rel="apple-touch-icon" href="apple-touch-icon-114x114-precomposed.png">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    {% block stylesheets %}{% endblock %}
+
+</head>
+<body>
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please
+    <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+<!-- Menui-->
+{% block menu %}{% endblock %}
+<!-- End Menu -->
+
+<!-- Body -->
+<div class="container full-body">
+    {% block body %}{% endblock %}
+</div>
+<!-- End Body -->
+
+<footer class="bg-dark big-navbar" tabindex="40">
+    {% block footer %}
+    {% endblock %}
+</footer>
+{% block javascripts %}{% endblock %}
+
+</body>
+</html>
