@@ -2,6 +2,7 @@
 
 namespace MVC\Classe;
 
+define( "INCLUDE_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include");
 define( "CONTROLLERS_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include" . DIRECTORY_SEPARATOR . "controlleurs");
 
 require APPLICATION_PATH . DIRECTORY_SEPARATOR . "parameters.php";

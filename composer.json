@@ -4,5 +4,8 @@
             "MVC\\Classe\\":"./application/class",
             "MVC\\Objets\\":"./application/objets"
         }
+    },
+    "require": {
+        "twig/twig": "^1.36"
     }
 }

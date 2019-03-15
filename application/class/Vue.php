@@ -16,12 +16,22 @@ class Vue{
 
 		ob_start();
         require CONTROLLER_PATH.DIRECTORY_SEPARATOR.$name.'.php';
-        require VIEW_PATH.DIRECTORY_SEPARATOR.$name.'.phtml';
-		$this->block_body = ob_get_clean();
+        $loader = new \Twig\Loader\FilesystemLoader(VIEW_PATH);
+        $twig = new \Twig\Environment($loader, array(
+            'cache' => INCLUDE_PATH.DIRECTORY_SEPARATOR.'cache',
+            'auto_reload' => true,
+            'autoescape' => true
+        ));
+        $template = $twig->load("$name.html.twig");
+        $twig_var['page_title'] = $page_title;
+        $twig_var['description'] = $description;
 
-		ob_start();
-		require LAYOUT_PATH.DIRECTORY_SEPARATOR."standard.phtml";
+        echo $template->render($twig_var);
 		$this->ecran = ob_get_clean();
+
+		/*ob_start();
+		require LAYOUT_PATH.DIRECTORY_SEPARATOR."standard.phtml";
+		$this->ecran = ob_get_clean();*/
 
 	}
 	
