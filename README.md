@@ -27,6 +27,6 @@ params : tout paramètre supplémentaire(s) dont vous auriez besoin sur la page
 
 Ce modèle MVC utilise Composer ainsi que les autoload de composer, afin de pouvoir faire 
 fonctionner l'application il faut lancer la commande avant tout affichage:
->composer dump-autoload
+>composer update
 
 pour le reste, c'est a vous de voir, mais c'est une architecture fonctionnelle à 2.5 vitesses
