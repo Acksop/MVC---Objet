@@ -1,6 +1,6 @@
-# MVC - en Programmation Orienté Objet
+# MVP - en Programmation Orienté Objet
 ---
-Cette architecture MVC Objet est composée d'un layout Twig Standard
+Cette architecture MVP Objet est composée d'un layout Twig Standard
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
