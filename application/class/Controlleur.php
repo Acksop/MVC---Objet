@@ -1,13 +1,7 @@
 <?php
 
 namespace MVC\Classe;
-
-define( "MODELS_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include" . DIRECTORY_SEPARATOR . "modeles");
-define( "VIEW_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include" . DIRECTORY_SEPARATOR . "vues");
-define( "CONTROLLER_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include" . DIRECTORY_SEPARATOR . "controlleurs");
-define( "TRAITEMENT_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "traitements");
-
-class Controlleur{
+Class Controlleur{
 	
 	public $modele;
 	public $vue;

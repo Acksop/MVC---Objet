@@ -1,11 +1,6 @@
 <?php
 
 namespace MVC\Classe;
-
-define( "CONTROLLERS_PATH" , APPLICATION_PATH . DIRECTORY_SEPARATOR . "include" . DIRECTORY_SEPARATOR . "controlleurs");
-
-require APPLICATION_PATH . DIRECTORY_SEPARATOR . "parameters.php";
-
 class Application
 {
 	public $url;
@@ -18,6 +13,7 @@ class Application
 
 		$controlleur = new Controlleur($this);
 		if(!$this->url->page['control']) {
+			//on affiche la page si ce n'est pas un traitement
             print($controlleur->vue->ecran);
         }
 	}
