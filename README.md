@@ -1,6 +1,6 @@
 # MVC - en Programmation Orienté Objet
 ---
-Cette architecture MVC Objet est composée d'un layout HTML5 Standard
+Cette architecture MVC Objet comprennat un fichier composer1.0 est composée d'un layout HTML5 Standard
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
