@@ -1,6 +1,6 @@
 # MVC - en Programmation Orienté Objet
 ---
-Cette architecture MVC Objet comprennat un fichier composer1.0 est composée d'un layout HTML5 Standard
+Cette architecture MVC Objet dépend d'un fichier Composer et permet de démarrer la programmation d'une application avec un layout HTML5 Standard
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
@@ -23,6 +23,6 @@ params : paramètre(s) supplémentaire(s)
 "application > include > vues > mapage.phtml" contenant
 >les blocs html qui seront affichés dans le layout standard
 
-Je ne peut que vous proposer de regarder dans le dossier layout afin de comprendre comment cela est affiché!
+Le dossier "application > layout" vous permet de modifier les en-têtes html et les éléments fixes de l'application (menu, sous-menu, fil d'ariane, pied de page, etc).
 
 pour le reste, c'est a vous de voir, mais c'est une architecture fonctionnelle à 2.5 vitesses
