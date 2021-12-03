@@ -6,7 +6,7 @@ class Bdd
 
     public function __construct($bdd = 'bdd1')
     {
-        switch($bdd) {
+        switch( $bdd ){
             case 'bdd1':
                 $this->bdd = new PDO(DSN_BDD1, USER_BDD1, PASS_BDD1);
             break;
@@ -27,7 +27,7 @@ class Bdd
     public function creerTableau($res){
 
         $tab = array();
-        foreach($res as $key => $row){
+        foreach( $res as $key => $row ){
             $tab[$key] = $row;
         }
         return $tab;
