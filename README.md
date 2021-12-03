@@ -2,7 +2,7 @@
 ---
 Cette architecture MVC Objet est composée d'un layout HTML5 Standard
 
-`Cette branche est la branche master originelle qui as été créée à partir d'une recherche inaboutie lors d'une relecture, correction et aide d'un MVC d'un étudiant à l'AFPA. Elle fut réalisé en "midnight create". Peu d'update et de correction ont été réalisé postérieurement.`
+`Cette branche est la branche master originelle qui as été créée à partir d'une recherche inaboutie lors d'une relecture, correction et aide d'un MVC d'un étudiant à l'AFPA. Elle fut réalisé en "midnight create". Une update personnelle et maison à été réalisé sans correction postérieurement.`
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
