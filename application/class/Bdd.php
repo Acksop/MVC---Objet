@@ -16,7 +16,7 @@ class Bdd
                 $this->bdd = new PDO(DSN_BDD2, USER_BDD2, PASS_BDD2);
             break;
             default:
-                $this->bdd = new PDO(DSN_FICHES, USER_FICHES, PASS_FICHES);
+                $this->bdd = new PDO(DSN_BDD1, USER_BDD1, PASS_BDD1);
         }
     }
 
