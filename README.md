@@ -35,4 +35,4 @@ L'architecture vient avec quelques features externe:
  - (template) meny.js pour le template standard
 
 
-pour le reste, c'est a vous de voir, mais c'est une architecture fonctionnelle à 2.5 vitesses
+pour le reste, c'est à vous de voir, car c'est une architecture fonctionnelle à 2.5 vitesses
