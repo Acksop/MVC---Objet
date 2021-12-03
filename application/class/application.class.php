@@ -22,8 +22,8 @@ class Application
 
 		$controlleur = new Controlleur($this);
 		if(!$this->url->page['control']) {
-            print($controlleur->vue->ecran);
-        }
+            		print($controlleur->vue->ecran);
+		}
 	}
 	
 }
