@@ -29,10 +29,10 @@ Je ne peut que vous proposer de regarder dans le dossier layout afin de comprend
 
 
 L'architecture vient avec quelques features externe:
- - (fonts) fontawesome et entypo
- - (css) bootstrapp
- - (js) jquery
- - (template) meny.js pour le template standard
+ - (fonts) fontawesome et entypo trouvé par le développeur du B25 à l'époque où les typographies étaient encore libres, au environ de 2013-2014
+ - (css) bootstrapp (MIT LICENCE)
+ - (js) jquery ()
+ - (template) meny.js pour le template standard (LICENSE PERSONNELLE)
 
 
 pour le reste, c'est à vous de voir, car c'est une architecture fonctionnelle à 2.5 vitesses
