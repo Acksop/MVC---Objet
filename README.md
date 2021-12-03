@@ -1,4 +1,4 @@
-# MVC - en Programmation Orienté Objet
+# Modèle Vue Controlleur (MVC) - en Programmation Orienté Objet
 ---
 Cette architecture MVC Objet avec l'utilisation d'un autoloader PHP5 est composée d'un layout HTML5 Standard
 
