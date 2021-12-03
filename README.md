@@ -32,7 +32,7 @@ L'architecture vient avec quelques features externe:
  - (fonts) fontawesome et entypo trouvé par le développeur du B25 à l'époque où les typographies étaient encore libres, au environ de 2013-2014
  - (css) bootstrapp (MIT LICENCE)
  - (js) jquery (MIT LICENCE)
- - (template) meny.js --https://github.com/hakimel/Meny-- pour le template standard (LICENSE PERSONNELLE Hakim El Hattab)
+ - (template) meny.js --https://github.com/hakimel/Meny-- pour le template standard (PERSONAL LICENSE Hakim El Hattab)
 
 
 pour le reste, c'est à vous de voir, car c'est une architecture fonctionnelle à 2.5 vitesses
