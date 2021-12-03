@@ -31,7 +31,7 @@ Je ne peut que vous proposer de regarder dans le dossier layout afin de comprend
 L'architecture vient avec quelques features externe:
  - (fonts) fontawesome et entypo trouvé par le développeur du B25 à l'époque où les typographies étaient encore libres, au environ de 2013-2014
  - (css) bootstrapp (MIT LICENCE)
- - (js) jquery ()
+ - (js) jquery (MIT LICENCE)
  - (template) meny.js --https://github.com/hakimel/Meny-- pour le template standard (LICENSE PERSONNELLE Hakim El Hattab)
 
 
