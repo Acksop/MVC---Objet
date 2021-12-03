@@ -27,7 +27,7 @@ params : tout paramètre supplémentaire(s) dont vous auriez besoin sur la page
 "application > include > vues > mapage.html.twig" contenant
 >les blocs html qui seront affichés lors de l'affichage
 
-Ce modèle MVC utilise Composer ainsi que les autoload de composer, afin de pouvoir faire 
+Ce modèle MVC utilise Composer ainsi que les autoload de Composer, afin de pouvoir faire 
 fonctionner l'application il faut lancer la commande avant tout affichage:
 >composer update
 
