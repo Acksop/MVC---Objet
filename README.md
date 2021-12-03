@@ -1,6 +1,6 @@
 # Modèle Vue Controlleur (MVC) - en Programmation Orienté Objet
 ---
-Cette architecture MVC Objet avec l'utilisation d'un autoloader PHP5 est composée d'un layout HTML5 Standard
+Cette architecture MVC Objet contient l'utilisation d'un autoloader PHP5 est composée d'un layout HTML5 Standard
 
 
 `Cette branche est la seconde branche qui as été créée à partir de la branche orignelle master en quelques jours à la suite du premier projet Symfony3.6 réalisé par le Rectorat de l'Académie de Besançon lors de la demande d'une application nécessitant une version compatible php5.3.`
@@ -28,4 +28,4 @@ params : paramètre(s) supplémentaire(s)
 
 Je ne peut que vous proposer de regarder dans le dossier layout afin de comprendre comment cela est affiché!
 
-pour le reste, c'est a vous de voir, mais c'est une architecture fonctionnelle à 2.5 vitesses
+pour le reste, c'est à vous de voir, car c'est une architecture fonctionnelle à 2.5 vitesses
