@@ -2,6 +2,9 @@
 ---
 Cette architecture MVC Objet avec l'utilisation d'un autoloader PHP5 est composée d'un layout HTML5 Standard
 
+
+`Cette branche est la seconde branche qui as été créée à partir de la branche orignelle master en quelques jours à la suite du premier projet Symfony réalisé par le Rectorat de l'Académie de Besançon lors de la demande d'une application nécessitant une version php5.3.`
+
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
 Afin de créer une nouvelle page vous devez instancier trois fichiers contenant diverses variables, dont voici les commandes:
