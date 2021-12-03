@@ -13,8 +13,8 @@ class Vue{
 		extract( $baseControlleur->modele->page );
 
 		ob_start();
-        require CONTROLLER_PATH.DIRECTORY_SEPARATOR.$name.'.php';
-        require VIEW_PATH.DIRECTORY_SEPARATOR.$name.'.phtml';
+        	require CONTROLLER_PATH.DIRECTORY_SEPARATOR.$name.'.php';
+        	require VIEW_PATH.DIRECTORY_SEPARATOR.$name.'.phtml';
 		$this->block_body = ob_get_clean();
 
 		ob_start();
