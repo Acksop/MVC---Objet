@@ -1,7 +1,7 @@
 /**
  * CONTROLLEUR STRUCTUREL FONCTIONNEL
  *
- * Nom Fichier: Accueil
+ * Nom Fichier: Error
  * Auteur:	Emmanuel ROY <acksop@yahoo.fr>
  *
  *
