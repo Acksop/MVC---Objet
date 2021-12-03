@@ -2,7 +2,7 @@
 ---
 Cette architecture MVC Objet est composée d'un layout HTML5 provenant d'un travail tiers disponible à l'adresse https://lab.hakim.se/meny/
 
-Il est fruit d'un travail tiers et acceuille l'application compatible php5.3 réalisé.
+`Il est fruit d'un travail tiers et a acceuilli l'application compatible php5.3 réalisé.`
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
