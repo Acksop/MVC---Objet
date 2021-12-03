@@ -21,7 +21,7 @@ class Application
 	public function launch(){
 
 		$controlleur = new Controlleur($this);
-		if(!$this->url->page['control']) {
+		if( !$this->url->page['control'] ){
             		print($controlleur->vue->ecran);
 		}
 	}
