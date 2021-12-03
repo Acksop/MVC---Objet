@@ -1,8 +1,8 @@
-# Model-View-Controler(MVC) - en Programmation Orienté Objet
+# Model-View-Controler (MVC) - en Programmation Orienté Objet
 ---
 Cette architecture MVC Objet dépend d'un fichier Composer et permet de démarrer la programmation d'une application avec un layout HTML5 Standard
 
-`Cette branche à été réalisé et donné au Rectorat de l'Académie de Besançon lors d'une recherche nécessitant une version compatible php5.3`
+`Cette branche à été réalisé et donné au Rectorat de l'Académie de Besançon lors d'une recherche-rapide-rapide nécessitant une version compatible php5.3`
 
 Les urls d'accès sont de type www.domain.tld/page/varname1/varvalue1/varname2/varvalue2/ ...
 
