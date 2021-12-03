@@ -15,7 +15,7 @@ class Controlleur{
 	
 	public function __construct($application){
 
-		if($application->url->page['control']){
+		if( $application->url->page['control'] ){
             		$url_params = $application->url->page['params'];
 	        	require TRAITEMENT_PATH . DIRECTORY_SEPARATOR . $application->url->page['name'] . '.php';
             	} else {
